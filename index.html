@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thika Auto Dealership</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Thika Auto Hub</h1>
+        <nav>
+            <ul>
+                <li><a href="#">New Arrivals</a></li>
+                <li><a href="#">Used Cars</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li>
+                    <label for="darkModeToggle">Dark Mode:</label>
+                    <input type="checkbox" id="darkModeToggle">
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h2>Find Your Dream Car in Thika</h2>
+            <p>Explore our wide selection of quality vehicles.</p>
+            <button class="cta-button">View Our Inventory</button>
+        </section>
+
+        <section id="featured-cars">
+            <h2>Featured Vehicles</h2>
+            <div class="car-grid">
+                <div class="car-card" data-model="Toyota Rav4">
+                    <img src="Images/Rav4.jpg" alt="Toyota Rav4">
+                    <h3>Toyota Rav4</h3>
+                    <p>Spacious SUV, reliable and efficient.</p>
+                    <button class="details-button">View Details</button>
+                </div>
+                <div class="car-card" data-model="Subaru Forester">
+                    <img src="Images/Forester.jpg" alt="Subaru Forester">
+                    <h3>Subaru Forester</h3>
+                    <p>All-wheel drive, perfect for Kenyan roads.</p>
+                    <button class="details-button">View Details</button>
+                </div>
+                <div class="car-card" data-model="Nissan Navara">
+                    <img src="Images/nissan.jpg" alt="Nissan Navara">
+                    <h3>Nissan Navara</h3>
+                    <p>Tough and versatile pickup truck.</p>
+                    <button class="details-button">View Details</button>
+                </div>
+                </div>
+        </section>
+
+        <section id="car-details" class="hidden">
+            <h2>Car Details</h2>
+            <div id="detailed-info">
+                </div>
+            <button id="close-details">Back to Inventory</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Thika Auto Hub. Located in Thika, Kiambu County, Kenya.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
